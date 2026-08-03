@@ -1,28 +1,25 @@
-# Programming Assignment 0: Setting the System Up
+# Git Sandbox Repository_Assignment 0
 
-*Based on TU Delft's [MUDE](http://mude.citg.tudelft.nl/)*
 
-*Written by: `pradeep, prakash, and sudheendra`*
+## Remote and Local
 
-*Due: `Friday, Aug 7, 2026`*
+When you're working with Git, there are really two copies of your project floating around. The local repository lives on your own computer — it's where you actually write code, test things out, and save your progress as you go. The remote repository lives somewhere else, usually on a server like GitHub, and acts as a shared, backed-up version that others can access too. Think of local as your personal workspace and remote as the shared drop-off point.
 
-This repository contains the source file for the assignment and will be used as a starting point for student repositories and in the assignments.
+## Forking
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+Forking is basically making your own personal copy of someone else's project, but under your own account. It's handy when you want to experiment, break things, or build on top of someone's work without touching their original repository at all. Once you've forked it, it's yours — you can do whatever you want with it, and the original stays untouched.
 
-## Learning outcomes 
+ ## Cloning
 
-You should be able to write simple Python programs on your computer, test them, and then sync them with the GitHub remote. The goal of this assignment is to equip you with the required programming tools that will be used throughout the semester for **CV 5101 (MUDE)**. We’ll also provide you with materials for further learning and a few ideas to get you started. 
+Cloning is how you actually get a repository from GitHub onto your own computer so you can work with it locally. When you clone, you're not just grabbing the current files — you're pulling down the entire project history too, so you can see how it evolved over time. Once it's cloned, you can open it in an editor like VS Code and start making changes.
 
-The following are different objectives of Assignment-0:
+## Push-Pull
 
-## 1. Show hidden files on your computer.
-## 2. Install _miniconda_ software package.
-## 3. Install _Visual Studio Code_.
-## 4. Setup MUDE environment.
-## 5. Execute a _Python_ code in your environment.
-## 6. Set up _GitHub_, _GitHub Desktop_, and try basic git operations.
-## 7. Common instructions for all assignments.
-## 8. Instructions for Assignment-0.
+These two go hand in hand. Pushing means taking the changes you made on your computer and sending them up to the remote repository, so everyone else (or just your GitHub account) sees the update. Pulling is the reverse — it grabs any new changes that exist on the remote and brings them down to your local copy. If you're working across multiple machines or with other people, pulling before you start working helps avoid conflicts.
+
+## Commit
+
+A commit is like taking a snapshot of your work at a specific point in time, along with a short note explaining what you changed and why. Instead of just having one messy, ever-changing file, commits let you build up a clear history — so if something breaks, you can look back and figure out exactly when and why it happened, or even undo it.
+
 
 
